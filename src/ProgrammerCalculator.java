@@ -29,6 +29,7 @@ public class ProgrammerCalculator extends javax.swing.JFrame {
                 jfieldActionPerformed(evt);
             }
         });
+        
         jfield.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 jfieldKeyReleased(evt);
